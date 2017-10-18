@@ -4,8 +4,8 @@ Poisson disc sampling with variable density and temporal incoherence
 Note: this python implementation is a C++ port for convience purposes, where runtimes are around a 100-fold longer. 
 (In C++, the generation of an exemplary pattern executes in typically in less than 50 ms)
 
-Example usage: 'PDvdiSampler.py 150 110 12.5 -N 2 -o 1'
-generates two patterns of size 150x110 and 12.5-fold undersampling with a graphical output
+    Example usage: 'PDvdiSampler.py 150 110 12.5 -N 2 -o 1'
+    generates two patterns of size 150x110 and 12.5-fold undersampling with a graphical output
 
     W           Pattern width
     H           Pattern height
